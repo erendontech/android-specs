@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    android:dividerPadding="15dp">
+    <TableRow>
+        <TextView
+            android:id="@+id/phoneNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phoneName: " />
+        <TextView
+            android:id="@+id/phoneNameValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phoneNameValue" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/androidVersionNumberLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="androidVersionNumber: " />
+        <TextView
+            android:id="@+id/androidVersionNumberValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="androidVersionNumberValue" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/androidVersionNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="androidVersionName: " />
+        <TextView
+            android:id="@+id/androidVersionNameValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="androidVersionNameValue" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/androidVersionApiLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="androidVersionApi: " />
+        <TextView
+            android:id="@+id/androidVersionApiValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="androidVersionApiValue" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/screenSizeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="screenSize: " />
+        <TextView
+            android:id="@+id/screenSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="screenSizeValue" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/screenResolutionLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="screenResolution: " />
+        <TextView
+            android:id="@+id/screenResolutionValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="screenResolutionValue" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/densityDpiLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="densityDpi: " />
+        <TextView
+            android:id="@+id/densityDpiValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="screenResolutionValue" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/densityDpiCountLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="densityDpiCount: " />
+        <TextView
+            android:id="@+id/densityDpiCountValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="densityDpiCountValue" />
+    </TableRow>
+</TableLayout>
